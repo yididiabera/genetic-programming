@@ -1,6 +1,6 @@
 # 🧬 MeTTa Genetic Algorithm Implementation
 
-This project implements a simple Genetic Algorithm (GA) in the MeTTa programming language, which is part of the [OpenCog Hyperon](https://github.com/opencog) ecosystem.
+This project implements a simple Genetic Algorithm (GA) in the MeTTa programming language.
 
 The goal is to evolve a population of binary-encoded individuals through selection, crossover, and mutation — mimicking the process of natural selection.
 
