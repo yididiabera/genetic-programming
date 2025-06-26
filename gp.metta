@@ -158,9 +158,15 @@
 ; !("child1 and child2 from parent1 and parent2")
 ; !(crossover (get-parent) (get-parent))
 
+
 ;; MUATATION
 
 ;; function to mutate an offspring
-(= (muatate $bit)
-    (if (== $bit 0) 1 0)
-)
+(= (mutate $list)
+   (let* (($first (car-atom $list)) 
+          ($flipped (if (== $first 0) 1 0)) 
+          ($rest (cdr-atom $list)))  
+     (cons-atom $flipped $rest)))  
+
+; !("Our unique guy")
+; !(mutate (0 1 1 1))
