@@ -39,5 +39,5 @@ Two selected parents undergo single-point crossover:
 
 Mutation is performed on the offspring:
 
-- A binary bit is flipped (i.e., `0 → 1`, or 1 → 0)
+- A binary bit is flipped (i.e., `0 → 1`, or `1 → 0`)
 - This introduces randomness and helps avoid local optima
